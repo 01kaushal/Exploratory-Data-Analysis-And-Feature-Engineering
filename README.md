@@ -1,12 +1,13 @@
-Techniques to Handle Missing Values in Numerical and Categorical Data
-Handling missing data is a crucial part of the data preprocessing phase in any data science or machine learning project. Choosing the right technique to handle missing values can significantly improve the performance of machine learning models and ensure the accuracy of your results.
+**Techniques to Handle Missing Values in Numerical and Categorical Data
+Handling missing data is a crucial part of the data preprocessing phase in any data science or machine learning project. Choosing the right technique to handle missing values can significantly improve the performance of machine learning models and ensure the accuracy of your results.**
 
-Handling Missing Values in Numerical Data
-Mean/Median/Mode Imputation:
+## Handling Missing Values in Numerical Data
 
-Mean: Replace missing values with the mean of the feature.
-Median: Use the median if the data is skewed or contains outliers.
-Mode: Replace missing values with the most frequent value (for categorical-like numerical data).
+**Mean/Median/Mode Imputation:**
+
+**Mean:** Replace missing values with the mean of the feature.
+**Median:** Use the median if the data is skewed or contains outliers.
+**Mode:** Replace missing values with the most frequent value (for categorical-like numerical data).
 Random Sample Imputation:
 
 Fill missing values by randomly sampling from the non-missing values of the feature. This helps preserve the distribution of the data.
